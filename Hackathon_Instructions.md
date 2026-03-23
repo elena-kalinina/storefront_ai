@@ -8,12 +8,14 @@
 
 ## The Pitch (memorize this)
 
-> "Opening a physical store is a $50K gamble. Pick the wrong block and you're dead in 6 months.  
-> **StoreFront AI** is your AI location strategist.  
+> "Brick-and-mortar stores are struggling. Online retail is eating them alive — and yet, local shops are the heartbeat of a neighborhood. They're what make a street worth walking down, a community worth living in.  
+> The problem isn't that people don't want local stores. It's that opening one is a **$50K gamble** — and picking the wrong block kills you in 6 months.  
+> **StoreFront AI** changes that. It's your AI location strategist.  
 > Describe your business, your budget, your ideal customer — and in seconds, it analyzes demographics, competition gaps, foot traffic, and nearby complementary businesses to find your perfect spot.  
+> We're not just helping entrepreneurs. We're helping neighborhoods stay alive.  
 > Powered by Google Maps and BigQuery MCP servers, deployed on Cloud Run."
 
-**One-liner**: *"Tell me your business. I'll find where it thrives."*
+**One-liner**: *"Helping local businesses find where they'll thrive — because great neighborhoods need great shops."*
 
 ---
 
@@ -179,9 +181,9 @@ One slide with architecture diagram (or just draw it on a whiteboard).
 
 ## Demo Script (2.5 minutes total)
 
-### Opening (15 sec)
+### Opening (20 sec)
 
-*"Opening a physical store is a 50K dollar gamble. 60% of retail businesses fail because they picked the wrong location. Meet StoreFront AI — your AI location strategist."*
+*"Local shops are the heartbeat of every neighborhood. The bookstore, the bakery, the yoga studio — they're what make a community worth living in. But brick-and-mortar stores are in a fight for survival against online retail, and picking the wrong location is a death sentence. Meet StoreFront AI — an AI that gives local businesses their best shot at thriving."*
 
 ### Scenario 1: The Cheese Shop (60 sec)
 
@@ -209,7 +211,7 @@ Shows multi-turn context + Maps route + weather lookup.
 
 ### Closing (15 sec)
 
-*"Two Google MCP servers — Maps and BigQuery — orchestrated by Google ADK with Gemini 2.5 Flash, deployed on Cloud Run. Built in three hours. StoreFront AI."*
+*"Two Google MCP servers — Maps and BigQuery — orchestrated by Google ADK with Gemini 2.5 Flash, deployed on Cloud Run. Built in three hours. Because great neighborhoods deserve great shops. StoreFront AI."*
 
 ---
 

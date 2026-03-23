@@ -2,9 +2,11 @@
 
 **AI Location Intelligence for Brick-and-Mortar Businesses**
 
-> "Tell me your business. I'll find where it thrives."
+> "Helping local businesses find where they'll thrive — because great neighborhoods need great shops."
 
-StoreFront AI is an agentic AI application that helps entrepreneurs find the optimal physical location for their store, restaurant, studio, or any brick-and-mortar business. It combines Google Maps real-world location data with BigQuery demographic analytics through Google's MCP servers, orchestrated by the Google Agent Development Kit (ADK).
+Brick-and-mortar stores are struggling to compete with online retail — yet they remain vital to the quality of life in every neighborhood. The local bookshop, the corner bakery, the yoga studio down the street — they're what make a community worth living in.
+
+StoreFront AI helps these businesses survive and thrive by finding them the **optimal physical location**. It combines Google Maps real-world location data with BigQuery demographic analytics through Google's MCP servers, orchestrated by the Google Agent Development Kit (ADK).
 
 ## Architecture
 
