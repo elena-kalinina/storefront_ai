@@ -12,7 +12,7 @@ maps_toolset = tools.get_maps_mcp_toolset()
 bigquery_toolset = tools.get_bigquery_mcp_toolset()
 
 root_agent = LlmAgent(
-    model="gemini-2.5-flash",
+    model="gemini-3.1-flash-lite-preview",
     name="storefront_agent",
     instruction=f"""You are **StoreFront AI**, an expert AI location strategist for brick-and-mortar businesses.
 

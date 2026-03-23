@@ -29,7 +29,7 @@ def get_bigquery_mcp_toolset():
     project_id = os.getenv("PROJECT_ID", "")
 
     credentials, auth_project_id = google.auth.default(
-        scopes=["https://www.googleapis.com/auth/cloud-platform"]
+        scopes=["https://www.googleapis.com/auth/bigquery"]
     )
     credentials.refresh(google.auth.transport.requests.Request())
 
