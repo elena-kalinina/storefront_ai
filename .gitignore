@@ -30,3 +30,6 @@ Thumbs.db
 # Google Cloud
 *.json
 !data/*.json
+
+# Local hackathon notes
+Hackathon_Instructions.md
