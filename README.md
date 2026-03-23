@@ -12,7 +12,7 @@ StoreFront AI helps these businesses survive and thrive by finding them the **op
 
 ```
 Google Cloud Run (deployed app)
-  └── Google ADK Agent (Gemini 2.5 Flash)
+  └── Google ADK Agent (Gemini 3.1 Pro)
         ├── Google Maps MCP Server (Grounding Lite)
         │     • Search places (competitors, complementary businesses)
         │     • Compute routes (commute times)
@@ -94,7 +94,7 @@ cd cleanup
 ## Tech Stack
 
 - **Agent Framework**: Google Agent Development Kit (ADK)
-- **LLM**: Gemini 2.5 Flash
+- **LLM**: Gemini 3.1 Pro
 - **MCP Servers**: Google Maps (Grounding Lite) + BigQuery
 - **Deployment**: Google Cloud Run
 - **Data**: BigQuery

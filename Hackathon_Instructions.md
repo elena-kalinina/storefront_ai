@@ -35,7 +35,7 @@ An **agentic AI application** that helps entrepreneurs find the optimal physical
 - BigQuery MCP — `bigquery.googleapis.com/mcp`
 
 **Framework**: Google Agent Development Kit (ADK)  
-**Model**: Gemini 2.5 Flash  
+**Model**: Gemini 3.1 Pro  
 **Deployment**: Cloud Run via `adk deploy cloud_run`
 
 ---
@@ -211,7 +211,7 @@ Shows multi-turn context + Maps route + weather lookup.
 
 ### Closing (15 sec)
 
-*"Two Google MCP servers — Maps and BigQuery — orchestrated by Google ADK with Gemini 2.5 Flash, deployed on Cloud Run. Built in three hours. Because great neighborhoods deserve great shops. StoreFront AI."*
+*"Two Google MCP servers — Maps and BigQuery — orchestrated by Google ADK with Gemini 3.1 Pro, deployed on Cloud Run. Built in three hours. Because great neighborhoods deserve great shops. StoreFront AI."*
 
 ---
 
