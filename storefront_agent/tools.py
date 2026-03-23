@@ -25,8 +25,11 @@ def get_maps_mcp_toolset():
 
 
 def get_bigquery_mcp_toolset():
-    credentials, project_id = google.auth.default(
-        scopes=["https://www.googleapis.com/auth/bigquery"]
+    dotenv.load_dotenv()
+    project_id = os.getenv("PROJECT_ID", "")
+
+    credentials, auth_project_id = google.auth.default(
+        scopes=["https://www.googleapis.com/auth/cloud-platform"]
     )
     credentials.refresh(google.auth.transport.requests.Request())
 
@@ -35,7 +38,8 @@ def get_bigquery_mcp_toolset():
             url=BIGQUERY_MCP_URL,
             headers={
                 "Authorization": f"Bearer {credentials.token}",
-                "x-goog-user-project": project_id,
+                "x-goog-user-project": project_id or auth_project_id,
+                "Content-Type": "application/json",
             },
         )
     )
